@@ -17,9 +17,10 @@ description: 把一张图片做成 Windows 图标（.ico）并替换桌面/开�
 ## 环境
 
 ```powershell
-# 带 Pillow 的 python（本机已验证）
-D:\py2\python.exe
-# 若无，则 D:\鲸鱼\DSH Desktop\resources\office-runtime\primary-runtime\dependencies\python\python.exe
+# 任意带 Pillow 的 python 都行，验一下即可
+python -c "import PIL; print(PIL.__version__)"
+# DSH 用户可以用它自带的运行时：
+#   <DSH 安装目录>\resources\office-runtime\primary-runtime\dependencies\python\python.exe
 ```
 
 图标统一存放目录：
