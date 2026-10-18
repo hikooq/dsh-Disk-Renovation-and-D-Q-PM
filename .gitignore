@@ -1,0 +1,13 @@
+# 临时文件
+_*
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
+
+# 依赖
+node_modules/
