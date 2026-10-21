@@ -11,3 +11,7 @@ Thumbs.db
 
 # 依赖
 node_modules/
+
+# Python
+__pycache__/
+*.pyc
